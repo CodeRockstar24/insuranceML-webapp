@@ -1,9 +1,6 @@
 # insuranceML-webapp
 Insurance Charges Prediction Web App using XGBoost, Flask, and Tailwind CSS
 
-Got it! Here’s a visually appealing, concise README description you can put at the top of your README.md file. I’ve added some icons and spacing for GitHub readability:
-
----
 
 ```markdown
 # 🚀 Insurance Charges Prediction Web App
@@ -24,28 +21,7 @@ Built with **XGBoost** for the backend and **HTML, JavaScript, Tailwind CSS** fo
 
 ---
 
-## 📁 Project Structure
 
-```
-
-insuranceML/
-├─ backend/
-│  ├─ data/
-│  │  └─ insurance\_data.csv
-│  ├─ model/
-│  │  └─ insurance\_model.pkl
-│  ├─ scripts/
-│  │  └─ train\_model.py
-│  └─ app.py
-├─ frontend/
-│  ├─ index.html
-│  ├─ app.js
-│  └─ style.css
-└─ README.md
-
-````
-
----
 
 ## ⚡ Quick Start
 
@@ -86,6 +62,5 @@ http://127.0.0.1:5000
 
 **CodeRockstar24**
 
-```
 
 ---
