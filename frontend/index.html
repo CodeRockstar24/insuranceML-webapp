@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insurance Charges Predictor</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-purple-200 via-pink-200 to-yellow-200 min-h-screen flex items-center justify-center">
+
+<div class="bg-white p-10 rounded-3xl shadow-xl w-full max-w-lg">
+  <h1 class="text-3xl font-bold mb-6 text-center text-purple-800">Insurance Charges Predictor</h1>
+  
+  <form id="insuranceForm" class="space-y-4">
+    <div>
+      <label class="block font-semibold">Age</label>
+      <input type="number" name="age" min="18" max="100" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+    </div>
+    <div>
+      <label class="block font-semibold">Sex</label>
+      <select name="sex" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <div>
+      <label class="block font-semibold">BMI</label>
+      <input type="number" step="0.1" name="bmi" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+    </div>
+    <div>
+      <label class="block font-semibold">Children</label>
+      <input type="number" name="children" min="0" max="10" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+    </div>
+    <div>
+      <label class="block font-semibold">Smoker</label>
+      <select name="smoker" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+      </select>
+    </div>
+    <div>
+      <label class="block font-semibold">Region</label>
+      <select name="region" required class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-purple-400">
+        <option value="northeast">Northeast</option>
+        <option value="northwest">Northwest</option>
+        <option value="southeast">Southeast</option>
+        <option value="southwest">Southwest</option>
+      </select>
+    </div>
+
+    <button type="submit" class="w-full bg-purple-600 text-white font-bold py-2 px-4 rounded hover:bg-purple-700 transition">Predict Charges</button>
+  </form>
+
+  <div id="result" class="mt-6 text-xl font-semibold text-center text-purple-700"></div>
+
+  <!-- Result History Table -->
+  <div class="mt-6">
+    <h2 class="text-lg font-semibold text-center text-purple-700">Last 5 Predictions</h2>
+    <table id="historyTable" class="w-full mt-2 border-collapse border border-purple-300 text-center">
+      <thead>
+        <tr class="bg-purple-100">
+          <th class="border border-purple-300 px-2 py-1">#</th>
+          <th class="border border-purple-300 px-2 py-1">Predicted Charges ($)</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Chart -->
+  <div class="mt-6">
+    <canvas id="chargesChart" width="400" height="200"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

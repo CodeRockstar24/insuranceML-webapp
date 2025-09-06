@@ -1,0 +1,7 @@
+/* Simple styling without fade-in */
+#result {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #6B21A8; /* Tailwind purple-700 */
+}
