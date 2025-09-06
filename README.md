@@ -1,4 +1,3 @@
-Got it! You want each “Quick Start” step in a **boxed format** with its own subheader and code block. Here’s a polished version with separate boxes for each step:
 
 ````markdown
 # 🚀 InsuranceML Web App
