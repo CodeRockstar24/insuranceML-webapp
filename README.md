@@ -1,7 +1,9 @@
 # InsuranceML Web App
 
-A full-stack web application to predict health insurance charges using Machine Learning.  
+A full-stack web application to predict health insurance charges using Machine Learning.
 Built with XGBoost for the backend and HTML, JavaScript, Tailwind CSS for a responsive, interactive frontend.
+
+Deployed using Amazon EC2 with Elastic Beanstalk container for scalable and reliable cloud hosting.
 
 ---
 
