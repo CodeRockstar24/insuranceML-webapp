@@ -5,6 +5,10 @@ Built with XGBoost for the backend and HTML, JavaScript, Tailwind CSS for a resp
 
 Deployed using Amazon EC2 with Elastic Beanstalk container for scalable and reliable cloud hosting.
 
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/26e39b5e-a35e-4cab-a924-ea713db8a3f6" />   <img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/ffe8d688-062e-4d09-b699-3f9a88a2107a" /> <img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/fd9e18c5-b80a-4055-bb39-35019bc79b3d" />
+
+
+
 ---
 
 ## Features
